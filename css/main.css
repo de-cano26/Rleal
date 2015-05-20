@@ -1,4 +1,4 @@
-/*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
+	/*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
 
 /*
  * What follows is the result of much research on cross-browser styling.
@@ -12,43 +12,44 @@
 
 /* Background styles*/
 .background
-{   
-    background: url('../img/background.png') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    position: absolute;
-    width: 100%; height: 100%;
-    
-    text-align: center;
-    font-family: Helvetica;
+{
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	font-family: Helvetica;
+	font-style: normal;
+	background-attachment: fixed;
+	background-image: url(../img/background.png);
+	background-repeat: no-repeat;
+	background-position: 20% 0%;
 }
 
-.background img
+.background img.logo
 {
     margin-top: 80px;
-    width: 130px;
+    width: 110px;
 }
 @media (min-width: 700px) {
-  .background img
+  .background img.logo
   {
      margin-top: 120px;
   }
 }
 @media (min-width: 1100px) {
-  .background img
+  .background img.logo
   {
-     width: 160px;
+     width: 130px;
      margin-top: 180px;
   }
 }
 
 .background h1
 {
-    margin-top: 60px;
-    font-size: 22px;
+	margin-top: 60px;
+	font-size: 22px;
+	font-weight: lighter;
 }
 
 .background h1 .blue-dark
@@ -68,8 +69,21 @@
 
 .background h2
 {
-    margin-top: 45px;
-    font-size: 14px;
+	margin-top: 45px;
+	font-size: 12px;
+	font-weight: lighter;
+}
+.redes
+{
+	margin-top: 25px;
+	/* margin-bottom: 25px; */
+	
+}
+.redes img
+{
+	width:33px;
+	margin-left: 10px;	
+	margin-right: 10px;	
 }
 
 /* ==========================================================================

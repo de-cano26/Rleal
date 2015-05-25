@@ -22,9 +22,12 @@
 	font-family: Helvetica;
 	font-style: normal;
 	background-attachment: fixed;
-	background-image: url(../img/background.png);
+	/*background-image: url(../img/background.png);*/
 	background-repeat: no-repeat;
 	background-position: center center;
+	background-color:#06080a;
+	border: 20px solid #ffffff;
+	 
 }
 
 .background img.logo
@@ -65,7 +68,7 @@
 
 .background h1 .black
 {
-    color: black;
+    color: #c2c3c4;
 }
 
 .background h2

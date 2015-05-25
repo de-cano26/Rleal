@@ -23,11 +23,21 @@
 	font-style: normal;
 	background-attachment: fixed;
 	/*background-image: url(../img/background.png);
-		background-position: center center;*/
+	background-position: center center;*/
 	background-repeat: no-repeat;
 	background-color:#06080a;
 	border: 15px solid #ffffff;
+	position: absolute;
+  	height: 100%;
+  	width: 100%;
+}
 	 
+}
+
+.background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
 
 .background img.logo
